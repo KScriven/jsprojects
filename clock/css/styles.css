@@ -1,0 +1,72 @@
+body {
+  background-color: #343536;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #d7d8db;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h6 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+header {
+  font-size: 1.5rem;
+  line-height: 48px;
+}
+
+body {
+  font: 1rem 'Bungee', Helvetica, Arial, sans-serif;
+  color: #615e75;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: 'Bungee', cursive;
+}
+
+h4 #clock {
+  font-size: 1em;
+  display: block;
+  padding: 5px 0px;
+}
+
+#yogaCatImage {
+  max-width: 30em;
+}
+
+blockquote {
+  font: 1.5em 'Bungee', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.timer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #b1b3b5;
+}
+
+#wakeUpTimeSelector,
+#lunchTimeSelector,
+#napTimeSelector {
+  margin: 0.75em;
+  padding-left: 0px;
+}
+
+.partyTimeButton {
+  background-color: red;
+}
