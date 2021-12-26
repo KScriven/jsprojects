@@ -115,7 +115,7 @@ button:active {
   top: 1px;
 }
 
-#totalTipValue:before {
+#totalTip:before {
   content: 'Tip amount';
   font-size: 1em;
   font-weight: bold;
@@ -123,13 +123,13 @@ button:active {
   text-transform: uppercase;
 }
 
-#totalTipValue sup {
+#totalTip sup {
   font-size: 1em;
   /* top: -18px; */
 }
 
-#totalTipValue small {
+#totalTip small {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: bolder;
   display: block;
 }

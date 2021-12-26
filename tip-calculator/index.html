@@ -40,7 +40,13 @@
         </form>
         <p>How many people are splitting the bill?</p>
         <input id="billSplitters" type="text" placeholder="Number of people" />
-        <button type="button" id="calculateBill">Calculate Tip!</button>
+        <button type="button" id="calculateBill" onClick="calculateTip()">
+          Calculate Tip!
+        </button>
+      </div>
+      <div id="totalTip">
+        <sup>£</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
       </div>
       <script src="js/tipcalculator.js"></script>
     </div>

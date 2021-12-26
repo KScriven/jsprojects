@@ -19,11 +19,13 @@ function calculateTip() {
   total = Math.round(total * 100) / 100;
   total = total.toFixed(2);
 
-  document.getElementById('totalTipValue').style.display = 'block';
+  document.getElementById('totalAmount').style.display = 'block';
   document.getElementById('tip').innerHTML = total;
 
-  document.getElementById('totalTipValue').style.display = 'none';
+  document.getElementById('totalAmount').style.display = 'none';
   document.getElementById('each').style.display = 'none';
 
   document.getElementById('calculateBill').onclick = calculateTip();
 }
+
+calculateTip();
