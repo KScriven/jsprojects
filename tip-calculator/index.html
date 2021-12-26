@@ -20,8 +20,10 @@
       <h1>Tip Calculator</h1>
       <div id="calculator">
         <form>
-          <p id="currencySign">What was the total value of the bill?</p>
-          £<input id="totalAmount" type="text" placeholder="Total value" />
+          <p>What was the total value of the bill?</p>
+          <p>
+            £<input id="totalAmount" type="text" placeholder="Total value" />
+          </p>
           <p>How was the service?</p>
           <p>
             <select id="serviceQuality">
@@ -38,13 +40,9 @@
         </form>
         <p>How many people are splitting the bill?</p>
         <input id="billSplitters" type="text" placeholder="Number of people" />
-        people
         <button type="button" id="calculateBill">Calculate Tip!</button>
       </div>
-      <div id="totalTipValue">
-        <sup>£ </sup><span id="tip">0.00</span><small id="each">each</small>
-      </div>
+      <script src="js/tipcalculator.js"></script>
     </div>
-    <script type="text/javascript" src="tipcalculator.js"></script>
   </body>
 </html>
