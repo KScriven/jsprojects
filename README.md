@@ -10,4 +10,4 @@ Project 1: Clock
 Project 2: Tip calculator
 Project 3: Dynamic navigation (short)
 Project 4: jQuery with interactive map
-Project 5: Maze game
+Project 5: Maze game (needs refactoring!)
