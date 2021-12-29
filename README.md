@@ -8,3 +8,5 @@ With thanks to SkillsCrush for the inspiration. Ive followed the link: [https://
 
 Project 1: Clock
 Project 2: Tip calculator
+Project 3: Dynamic navigation (short)
+Project 4: jQuery with interactive map
