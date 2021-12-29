@@ -46,6 +46,14 @@ function toggleVisablity(id) {
 }
 
 function Maze(Width, Height) {
+  /*
+ Refactor sizing -> something like this?  
+  var tx = window.innerWidth;
+  var ty = window.innerHeight;
+  canvas.width = tx;
+  canvas.height = ty;
+ */
+
   var mazeMap;
   var width = Width;
   var height = Height;
